@@ -7,13 +7,13 @@
 
 public class Solution {
     public int[] SearchRange(int[] nums, int target) {
-        int[] res;
+        int[] result;
         int first_index = Array.IndexOf(nums, target);
         int last_index = Array.LastIndexOf(nums, target);
         if (first_index > -1 && last_index > -1)
-            res = new int[]{ first_index,  last_index };
+            result = new int[]{ first_index,  last_index };
         else
-            res = new int[] { first_index,  last_index };
-        return res;
+            result = new int[] { first_index,  last_index };
+        return result;
     }
 }
