@@ -13,7 +13,7 @@ public class Solution {
         if (first_index > -1 && last_index > -1)
             result = new int[]{ first_index,  last_index };
         else
-            result = new int[] { first_index,  last_index };
+            result = new int[] { -1,  -1 };
         return result;
     }
 }
